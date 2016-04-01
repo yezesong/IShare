@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (C) 2015  Haiyang Yu Android Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.magcomm.ishare.widget.CropImageView
+        android:id="@+id/crop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundColor="@color/base"
+        app:cropMode="ratio_fit_image"
+        app:frameColor="@color/frame"
+        app:frameStrokeWeight="1dp"
+        app:guideColor="@color/guide"
+        app:guideShowMode="show_on_touch"
+        app:guideStrokeWeight="1dp"
+        app:handleColor="@color/handle"
+        app:handleShowMode="show_always"
+        app:handleSize="8dp"
+        app:minFrameSize="50dp"
+        app:overlayColor="@color/overlay"
+        app:touchPadding="8dp" />
+
+    <!--<com.magcomm.sharelibrary.views.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_default_height"
+        android:layout_gravity="bottom"
+        android:background="#30000000"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:gravity="center"
+            android:onClick="doClickView"
+            android:text="@string/btn_cancel"
+            android:textColor="@color/ic_back_text_bg"
+            android:textSize="@dimen/settings_default_textsize" />
+
+        <Button
+            android:id="@+id/btn_select"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:gravity="center"
+            android:onClick="doClickView"
+            android:text="@string/btn_select"
+            android:textColor="@color/ic_back_text_bg"
+            android:textSize="@dimen/settings_default_textsize" />
+    </LinearLayout>
+</FrameLayout>

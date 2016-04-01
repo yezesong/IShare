@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">IShare</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ck_save">Save</string>
+    <string name="str_forget">Forget</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_signup">SignUp</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_select">Select</string>
+    <string name="btn_complete">Complete</string>
+    <string name="tv_content_info">You have agreen to deal below when click the "sign" button</string>
+    <string name="tv_content_deal">IShare deal</string>
+    <string name="tv_login">Login by Message</string>
+
+    <string name="topbar_title_signup">Sign Up</string>
+    <string name="topbar_title_login">Sign In</string>
+    <string name="topbar_title_user_info">About Me</string>
+    <string name="topbar_title_share_photos">Share Photos</string>
+    <string name="topbar_title_left_back">Back</string>
+    <string name="topbar_title_family_photos">Family Photos</string>
+    <string name="topbar_title_settings">Settings</string>
+    <string name="topbar_title_group">Group Settings</string>
+    <string name="topbar_title_invitation">Invitation</string>
+    <string name="topbar_title_reset_pw">Reset Password</string>
+
+    <string name="edit_phonenumber">Input UserName please</string>
+    <string name="edit_password">Input password please</string>
+    <string name="label_phonenumber">PhoneNumber</string>
+    <string name="hint_phonenumber">Input PhoneNumber</string>
+    <string name="hint_password">abcd1234</string>
+    <string name="label_passwrod">Input password</string>
+    <string name="label_repear_password">Repeat Password</string>
+    <string name="label_verifi_code">Verification Code</string>
+    <string name="hint_verfi_code">Input Verfication Message</string>
+    <string name="tv_get_verifi_code">get Verification</string>
+
+    <string name="menu_phone_number">Phone Number</string>
+    <string name="menu_more">WChat/Email/QQ</string>
+    <string name="menu_take_photo">Take Photo</string>
+    <string name="menu_select_photo">Select from gally</string>
+    <string name="share_text_default">Input something to share</string>
+
+    <string name="area_china">+86</string>
+    <string name="area_hk">+852</string>
+    <string name="area_mac">+853</string>
+    <string name="area_tw">+886</string>
+
+    <string name="img_group_str">管理群相册</string>
+    <string name="img_code_str">邀请亲加入</string>
+    <string name="empty_string">Empty</string>
+    <string name="share_btn_speek">Press and Speek to share</string>
+    <string name="share_btn_send">Send</string>
+    <string name="txt_info_head">Head Pic</string>
+    <string name="txt_info_nake_name">Nake Name</string>
+    <string name="txt_info_group_name">Group Name</string>
+    <string name="txt_info_share_id">ID </string>
+    <string name="txt_info_sex">Sex</string>
+    <string name="txt_info_settings">Settings</string>
+    <string name="txt_setting_clear">Clear</string>
+    <string name="txt_setting_news">News</string>
+    <string name="txt_string_secret">Secret</string>
+    <string name="txt_string_black">Black Names</string>
+    <string name="txt_string_about_ishare">About IShare</string>
+    <string name="txt_string_feedback">FeedBack</string>
+    <string name="txt_string_quit">QUIT</string>
+    <string name="txt_string_group_name">Goup Name</string>
+    <string name="txt_string_name_unknow">Unknow</string>
+    <string name="txt_string_group_permission">Permission</string>
+    <string name="txt_string_delete_quit">Delete and Quit</string>
+    <string name="txt_sex_male">Male</string>
+    <string name="txt_sex_female">Female</string>
+    <string name="group_name">Group Name</string>
+    <string name="hint_group_name">Input Group Name</string>
+    <string name="btn_create_success">Create New Group</string>
+    <string name="btn_add_group">Add this Group</string>
+    <string name="edit_add_group">Invitation Code</string>
+    <string name="edit_account_name">Account</string>
+    <string name="txt_reset_no_message">Unable to receive SMS</string>
+    <string name="txt_reset_new_pw">New Password</string>
+    <string name="txt_reset_input_new_pw">Please input new Password</string>
+    <string name="btn_reset_complete">OK</string>
+    <string name="select_photo_title">Select Photo</string>
+    <string name="select_sex_title">Select Sex</string>
+
+    <string name="txt_edit_nike_name">Edit Nake Name</string>
+    <string name="txt_edit_group_name">Edit Group Name</string>
+    <string name="notice_title">Notice</string>
+    <string name="notice_message">Are u sure modify the user\'s infomation?</string>
+    <string name="notice_yes">YES</string>
+    <string name="notice_no">NO</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="tv_getvoice">Can\'t get Code</string>
+    <string name="time_too_short">Time short</string>
+    <string name="save">Save</string>
+    <string name="crop_photo_error">Error</string>
+    <string name="click_again_exit">Click aggin exit</string>
+    <string name="txt_test_id">15214361534</string>
+    <string name="txt_test_string">暂供测试，后续会替换成Grid布局</string>
+
+    <string name="cancel_moveup">Recoding and move up to cancel</string>
+    <string name="moveup_del">Loosen finger and quite</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:care="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.magcomm.sharelibrary.views.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        care:tp_left_text="@string/topbar_title_left_back"
+        care:tp_title="@string/topbar_title_signup" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <com.magcomm.sharelibrary.views.TextEditView
+            android:id="@+id/txt_edit_passward"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tvt_edit_height"
+            care:edittext_inputtype="phone"
+            care:txt_edit_hint="@string/hint_password"
+            care:txt_edit_label="@string/label_passwrod"
+            care:txt_label_width="80dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/devider_color" />
+
+        <com.magcomm.sharelibrary.views.TextEditView
+            android:id="@+id/txt_edit_repassward"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tvt_edit_height"
+            care:edittext_inputtype="textVisiblePassword"
+            care:txt_edit_hint="@string/hint_password"
+            care:txt_edit_label="@string/label_repear_password"
+            care:txt_label_width="80dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_sign_complete"
+        style="@style/BtnLoginStyle"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_complete" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/tv_content_info"
+        android:textColor="@color/color_light_gray_content"
+        android:textSize="@dimen/tv_content_default_size" />
+
+    <TextView
+        android:id="@+id/tv_deal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tv_deal_height"
+        android:layout_marginTop="6dp"
+        android:clickable="true"
+        android:enabled="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/tv_content_deal"
+        android:textColor="@color/tv_deal_color_bg"
+        android:textSize="@dimen/tv_content_default_size" />
+</LinearLayout>

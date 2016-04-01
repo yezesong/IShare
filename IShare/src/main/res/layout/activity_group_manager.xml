@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:care="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.magcomm.sharelibrary.views.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        care:tp_title="@string/topbar_title_group" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1.0"
+        android:background="#985"
+        android:gravity="center"
+        android:text="@string/txt_test_string"
+        android:textSize="22sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/settings_default_margin"
+        android:background="@color/devider_color" />
+
+    <com.magcomm.sharelibrary.views.SettingsItem
+        android:id="@+id/group_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/select_menu_item_bg"
+        care:content_str="@string/txt_string_name_unknow"
+        care:tp_title="@string/txt_string_group_name" />
+
+    <com.magcomm.sharelibrary.views.SettingsItem
+        android:id="@+id/goup_permissions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/select_menu_item_bg"
+        care:tp_title="@string/txt_string_group_permission" />
+
+    <Button
+        android:id="@+id/setting_quit"
+        style="@style/BtnLoginStyle"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_quit_background"
+        android:text="@string/txt_string_delete_quit" />
+</LinearLayout>

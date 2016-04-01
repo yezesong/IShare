@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.magcomm.sharelibrary.widget.MaxHeightListView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/create_group"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popup_menu_item_height"
+        android:background="@drawable/pop_menu_item_normal"
+        android:drawableLeft="@drawable/ic_create_group"
+        android:paddingLeft="10dp"
+        android:text="@string/pop_menu_create"
+        android:textColor="@color/ic_back_text_bg"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/add_group"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popup_menu_item_height"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_add_group"
+        android:paddingLeft="10dp"
+        android:text="@string/pop_menu_add"
+        android:textColor="@color/ic_back_text_bg"
+        android:textSize="22sp" />
+
+</LinearLayout>

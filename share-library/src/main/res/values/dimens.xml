@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_default_size">10sp</dimen>
+    <dimen name="default_label_width">65dp</dimen>
+    <dimen name="tv_content_default_size">15sp</dimen>
+    <dimen name="topbar_padding">5dip</dimen>
+    <dimen name="topbar_title_default_size">26sp</dimen>
+    <dimen name="topbar_default_height">60dp</dimen>
+    <dimen name="content_text_default_size">18sp</dimen>
+
+    <dimen name="content_default_padding">6dp</dimen>
+    <dimen name="edit_text_default_margin">6dip</dimen>
+    <dimen name="select_menu_item_height">55dp</dimen>
+    <dimen name="popup_menu_item_height">55dp</dimen>
+    <dimen name="tv_deal_height">30dp</dimen>
+    <dimen name="settings_item_height">55dp</dimen>
+    <dimen name="settings_default_margin">15dp</dimen>
+    <dimen name="share_layout_margin">10dp</dimen>
+    <dimen name="settings_default_textsize">22sp</dimen>
+
+    <dimen name="girdle_min_h">@dimen/dp_50</dimen>
+    <dimen name="text_normal">17sp</dimen>
+    <!-- 一级标题 -->
+    <dimen name="A_title">@dimen/dp_21</dimen>
+    <!-- 二级标题 -->
+    <dimen name="B_title">@dimen/dp_19</dimen>
+    <!-- 三级标题 -->
+    <dimen name="C_title">@dimen/dp_17</dimen>
+    <!-- 四级标题 -->
+    <dimen name="D_title">@dimen/dp_15</dimen>
+    <!-- 五级标题 -->
+    <dimen name="E_title">@dimen/dp_13</dimen>
+    <!-- 六级标题 -->
+    <dimen name="F_title">@dimen/dp_11</dimen>
+    <dimen name="gap_grade_2">@dimen/dp_8</dimen>
+
+    <dimen name="default_vertical_space">3dp</dimen>
+    <dimen name="default_horizontal_space">2dp</dimen>
+</resources>

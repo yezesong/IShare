@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:care="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:orientation="vertical">
+
+    <com.magcomm.sharelibrary.views.ShareTitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/title_cancel"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="@dimen/share_layout_margin"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/ic_back_text_bg"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="@dimen/share_layout_margin"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="@string/txt_edit_nike_name"
+            android:textColor="@color/white_normal"
+            android:textSize="@dimen/topbar_title_default_size" />
+
+        <TextView
+            android:id="@+id/title_modify"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="@dimen/share_layout_margin"
+            android:clickable="true"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="@string/save"
+            android:textColor="@color/ic_back_text_bg"
+            android:textSize="18sp" />
+    </com.magcomm.sharelibrary.views.ShareTitleLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/settings_default_margin"
+        android:background="@color/devider_color" />
+
+    <com.magcomm.sharelibrary.views.TextEditView
+        android:id="@+id/txt_edit_nick"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tvt_edit_height"
+        care:txt_content_length="8"
+        android:background="@drawable/select_menu_item_bg"
+        care:edittext_inputtype="text"
+        care:txt_edit_label="@string/txt_info_nake_name" />
+</LinearLayout>

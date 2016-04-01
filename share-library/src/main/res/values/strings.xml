@@ -1,0 +1,16 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ShareLibrary</string>
+    <string name="edit_label_default">default</string>
+    <string name="menu_cancel">Cancel</string>
+    <string name="pop_menu_add">Add Group</string>
+    <string name="pop_menu_create">Create Group</string>
+
+    <string name="onloading">Loading...</string>
+    <string name="net_poor_connections">Connected error！</string>
+    <string name="server_error">Server error</string>
+    <string name="error_timer_out">Timeout error!</string>
+    <string name="server_path_error">Net work error</string>
+    <string name="token_error_need_login">您的登录状态已失效，请重新登录</string>
+    <string name="yes">OK</string>
+    <string name="length_to_long">You input %1$s can\'t more then %2$s</string>
+</resources>

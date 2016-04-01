@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:care="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.magcomm.sharelibrary.views.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        care:tp_title="@string/pop_menu_add" />
+
+    <EditText
+        android:id="@+id/add_group_edit"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_corner_background"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:hint="@string/edit_add_group"
+        android:inputType="number"
+        android:maxLength="6"
+        android:paddingLeft="15dp"
+        android:textColor="@color/edit_input_default_color"
+        android:textColorHint="@color/color_light_gray"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_add_group"
+        style="@style/BtnLoginStyle"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_add_group" />
+</LinearLayout>

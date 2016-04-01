@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BtnLoginStyle">
+        <item name="android:background">@drawable/btn_login_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/btn_text_size</item>
+        <item name="android:layout_marginLeft">@dimen/content_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/content_margin_left_right</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="EditLoginStyle">
+        <item name="android:background">@null</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/edit_input_default_color</item>
+        <item name="android:textColorHint">@color/edit_hint_default_color</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

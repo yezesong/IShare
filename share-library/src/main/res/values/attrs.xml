@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="content_padding" format="dimension" />
+    <attr name="settings_item_margin" format="dimension" />
+    <attr name="imgsrc" format="reference" />
+    <attr name="content_str" format="string" />
+    <attr name="content_color" format="color|reference" />
+    <attr name="content_size" format="dimension" />
+    <attr name="clickable" format="boolean" />
+    <attr name="tp_background" format="reference" />
+    <attr name="tp_title" format="string" />
+    <attr name="tp_titleColor" format="color|reference" />
+    <attr name="tp_textSize" format="dimension" />
+    <attr name="txt_label_width" format="dimension" />
+    <attr name="tp_left_text" format="string" />
+    <attr name="tp_left_icon" format="reference" />
+    <attr name="tp_right_icon" format="reference" />
+    <attr name="title_clickable" format="boolean" />
+    <attr name="tp_left_icon_type">
+        <enum name="bt_icon" value="0" />
+        <enum name="img_icon" value="1" />
+    </attr>
+
+    <attr name="dialogTitleStyle" format="reference" />
+    <attr name="dialogMessageStyle" format="reference" />
+    <attr name="dialogButtonStyle" format="reference" />
+    <attr name="dialogLayouts" format="reference" />
+    <attr name="dialogMainLayout" format="reference" />
+    <attr name="dialogListLayout" format="reference" />
+    <attr name="dialogMultiChoiceItem" format="reference" />
+    <attr name="dialogSingleChoiceItem" format="reference" />
+    <attr name="dialogListItem" format="reference" />
+    <attr name="leftBackground" format="reference|color" />
+    <attr name="rightBackground" format="reference|color" />
+    <attr name="dialogButtonBackgrounds" format="reference" />
+    <attr name="middleBackground" format="reference|color" />
+    <attr name="wholeBackground" format="reference|color" />
+
+    <attr name="txt_edit_label" format="string" />
+    <attr name="txt_edit_hint" format="string" />
+    <attr name="txt_edit_textcolor" format="color|reference" />
+    <attr name="edittext_inputtype">
+        <flag name="none" value="0x00000000" />
+        <flag name="text" value="0x00000001" />
+        <flag name="textCapCharacters" value="0x00001001" />
+        <flag name="textCapWords" value="0x00002001" />
+        <flag name="textCapSentences" value="0x00004001" />
+        <flag name="textAutoCorrect" value="0x00008001" />
+        <flag name="textAutoComplete" value="0x00010001" />
+        <flag name="textMultiLine" value="0x00020001" />
+        <flag name="textImeMultiLine" value="0x00040001" />
+        <flag name="textNoSuggestions" value="0x00080001" />
+        <flag name="textUri" value="0x00000011" />
+        <flag name="textEmailAddress" value="0x00000021" />
+        <flag name="textEmailSubject" value="0x00000031" />
+        <flag name="textShortMessage" value="0x00000041" />
+        <flag name="textLongMessage" value="0x00000051" />
+        <flag name="textPersonName" value="0x00000061" />
+        <flag name="textPostalAddress" value="0x00000071" />
+        <flag name="textPassword" value="0x00000081" />
+        <flag name="textVisiblePassword" value="0x00000091" />
+        <flag name="textWebEditText" value="0x000000a1" />
+        <flag name="textFilter" value="0x000000b1" />
+        <flag name="textPhonetic" value="0x000000c1" />
+        <flag name="textWebEmailAddress" value="0x000000d1" />
+        <flag name="textWebPassword" value="0x000000e1" />
+        <flag name="number" value="0x00000002" />
+        <flag name="numberSigned" value="0x00001002" />
+        <flag name="numberDecimal" value="0x00002002" />
+        <flag name="numberPassword" value="0x00000012" />
+        <flag name="phone" value="0x00000003" />
+        <flag name="datetime" value="0x00000004" />
+        <flag name="date" value="0x00000014" />
+        <flag name="time" value="0x00000024" />
+    </attr>
+    <attr name="left_visible">
+        <enum name="visible" value="0" />
+        <enum name="invisible" value="4" />
+        <enum name="gone" value="8" />
+    </attr>
+    <attr name="right_visible">
+        <enum name="visible" value="0" />
+        <enum name="invisible" value="4" />
+        <enum name="gone" value="8" />
+    </attr>
+
+    <attr name="tip_visible">
+        <enum name="visible" value="0" />
+        <enum name="invisible" value="4" />
+        <enum name="gone" value="8" />
+    </attr>
+    <attr name="txt_content_length" format="integer" />
+
+    <declare-styleable name="ImgTextView">
+        <attr name="content_padding" />
+        <attr name="imgsrc" />
+        <attr name="content_str" />
+        <attr name="content_color" />
+        <attr name="content_size" />
+        <attr name="clickable" />
+    </declare-styleable>
+
+    <declare-styleable name="TopBar">
+        <attr name="tp_background" />
+        <attr name="tp_title" />
+        <attr name="tp_titleColor" />
+        <attr name="tp_textSize" />
+        <attr name="tp_left_text" />
+        <attr name="tp_left_icon" />
+        <attr name="tp_right_icon" />
+        <attr name="left_visible" />
+        <attr name="right_visible" />
+        <attr name="title_clickable" />
+        <attr name="tp_left_icon_type" />
+        <attr name="isHideStatusBar" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TextEditView">
+        <attr name="txt_edit_label" />
+        <attr name="txt_edit_hint" />
+        <attr name="edittext_inputtype" />
+        <attr name="txt_content_length" />
+        <attr name="txt_edit_textcolor" />
+        <attr name="txt_label_width" />
+    </declare-styleable>
+
+    <declare-styleable name="SettingsItem">
+        <attr name="tp_title" />
+        <attr name="content_str" />
+        <attr name="settings_item_margin" />
+        <attr name="title_clickable" />
+        <attr name="tip_visible" />
+    </declare-styleable>
+
+    <declare-styleable name="DialogLayouts">
+        <attr name="dialogMainLayout" />
+        <attr name="dialogListLayout" />
+        <attr name="dialogMultiChoiceItem" />
+        <attr name="dialogSingleChoiceItem" />
+        <attr name="dialogListItem" />
+    </declare-styleable>
+
+    <declare-styleable name="DialogButtonBackground">
+        <attr name="leftBackground" />
+        <attr name="rightBackground" />
+        <attr name="middleBackground" />
+        <attr name="wholeBackground" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <!--定义流布局中默认子控件横向及纵向间距-->
+        <attr name="verticalspace" format="dimension" />
+        <attr name="horizontalspace" format="dimension" />
+    </declare-styleable>
+</resources>

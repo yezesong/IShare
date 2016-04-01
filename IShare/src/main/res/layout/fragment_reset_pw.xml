@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:care="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.magcomm.sharelibrary.views.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        care:tp_title="@string/topbar_title_reset_pw" />
+
+    <com.magcomm.sharelibrary.views.TextEditView
+        android:id="@+id/reset_pw_edit"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_corner_background"
+        care:txt_edit_label="@string/edit_account_name" />
+
+    <Button
+        android:id="@+id/btn_reset_home_next"
+        style="@style/BtnLoginStyle"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_next" />
+</LinearLayout>

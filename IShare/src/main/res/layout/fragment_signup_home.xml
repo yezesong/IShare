@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:care="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.magcomm.sharelibrary.views.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        care:tp_title="@string/topbar_title_signup" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/select_area"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tvt_edit_height"
+            android:background="@drawable/select_menu_item_bg"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:gravity="center"
+                android:text="@string/label_area"
+                android:textColor="@color/color_light_gray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_select_area"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/spinner_arrow"
+                android:gravity="right|center_vertical"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:singleLine="true"
+                android:text="@string/area_mainland"
+                android:textColor="@color/color_light_green"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <com.magcomm.sharelibrary.views.TextEditView
+            android:id="@+id/txt_edit_phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tvt_edit_height"
+            care:edittext_inputtype="phone"
+            care:txt_content_length="11"
+            care:txt_edit_hint="@string/hint_phonenumber"
+            care:txt_edit_label="@string/area_china" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/devider_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.magcomm.sharelibrary.views.TextEditView
+                android:id="@+id/txt_edit_verfi"
+                android:layout_width="0dip"
+                android:layout_height="@dimen/tvt_edit_height"
+                android:layout_weight="1.0"
+                care:edittext_inputtype="textVisiblePassword"
+                care:txt_content_length="4"
+                care:txt_edit_hint="@string/hint_verfi_code"
+                care:txt_edit_label="@string/label_verifi_code"
+                care:txt_edit_textcolor="@color/content_default_color" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="@dimen/tvt_edit_height"
+                android:background="@color/devider_color" />
+
+            <com.magcomm.sharelibrary.views.TimerButton
+                android:id="@+id/btn_timer"
+                android:layout_width="@dimen/tvt_edit_width"
+                android:layout_height="@dimen/tvt_edit_height"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/btn_get_vertificate_code"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="right"
+        android:text="@string/tv_getvoice"
+        android:textColor="@color/tv_get_verifi_bg"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_sign_home_next"
+        style="@style/BtnLoginStyle"
+        android:layout_marginTop="15dp"
+        android:enabled="false"
+        android:text="@string/btn_next" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/tv_content_info"
+        android:textColor="@color/color_light_gray_content"
+        android:textSize="@dimen/tv_content_default_size" />
+
+    <TextView
+        android:id="@+id/tv_deal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tv_deal_height"
+        android:layout_marginTop="6dp"
+        android:clickable="true"
+        android:enabled="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/tv_content_deal"
+        android:textColor="@color/tv_deal_color_bg"
+        android:textSize="@dimen/tv_content_default_size" />
+</LinearLayout>

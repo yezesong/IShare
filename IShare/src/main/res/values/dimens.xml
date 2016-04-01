@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="tvt_edit_height">60dp</dimen>
+    <dimen name="tvt_edit_width">90dp</dimen>
+    <dimen name="content_margin_left_right">15dp</dimen>
+    <dimen name="logo_default_margintop">25dp</dimen>
+    <dimen name="corner_radius">4dp</dimen>
+    <dimen name="btn_text_size">25sp</dimen>
+
+</resources>

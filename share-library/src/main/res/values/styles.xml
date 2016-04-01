@@ -1,0 +1,150 @@
+<resources>
+
+    <style name="AnimationActivity">
+        <item name="android:activityOpenEnterAnimation">@anim/right_anim_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/right_anim_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/left_anim_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/left_anim_out</item>
+    </style>
+
+    <style name="EditTextMargin">
+        <item name="android:layout_marginBottom">@dimen/edit_text_default_margin</item>
+        <item name="android:layout_marginTop">@dimen/edit_text_default_margin</item>
+    </style>
+
+    <style name="SelectMenuAnim">
+        <item name="android:windowEnterAnimation">@anim/bottom_anim_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_anim_out</item>
+    </style>
+
+    <style name="AlphaAnimation">
+        <item name="android:windowEnterAnimation">@anim/alpha_anim_in</item>
+        <item name="android:windowExitAnimation">@anim/alpha_anim_out</item>
+    </style>
+
+    <style name="PopuWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/pop_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_fade_out</item>
+    </style>
+
+    <style name="line_h">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/line</item>
+    </style>
+
+    <style name="BaseDialog" />
+
+    <style name="BaseDialog.Title">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+        <item name="android:minHeight">@dimen/dp_30</item>
+        <item name="android:textAppearance">@style/TextAppearance.DialogTitle</item>
+    </style>
+
+    <style name="BaseDialog.Title.Bottom">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">@dimen/girdle_min_h</item>
+        <item name="android:textAppearance">@style/TextAppearance.DialogTitle</item>
+    </style>
+
+    <style name="BaseDialog.Title.SelectPhoto">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:textAppearance">@style/TextAppearance.DialogTitle.SelectPhoto</item>
+    </style>
+
+    <style name="BaseDialog.Title.SelectSex">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/TextAppearance.DialogTitle.SelectSex</item>
+    </style>
+
+    <style name="BaseDialog.Message">
+        <item name="android:textAppearance">@style/TextAppearance.DialogMessage</item>
+        <item name="android:paddingLeft">@dimen/dp_20</item>
+        <item name="android:paddingRight">@dimen/dp_20</item>
+        <item name="android:paddingBottom">@dimen/dp_25</item>
+        <item name="android:paddingTop">@dimen/dp_10</item>
+        <item name="android:minHeight">@dimen/dp_60</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="BaseDialog.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:minHeight">@dimen/dp_45</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/color_light_gray</item>
+    </style>
+
+    <style name="BaseDialog.Button.Backgrounds">
+        <item name="leftBackground">@drawable/white_alpha_0_8_5_corner_bottom_left_16dp_bg</item>
+        <item name="rightBackground">@drawable/white_alpha_0_8_5_corner_bottom_right_16dp_bg</item>
+        <item name="middleBackground">@drawable/white_alpha_0_8_5_bg</item>
+        <item name="wholeBackground">@drawable/white_alpha_0_8_5_corner_bottom_16dp_bg</item>
+    </style>
+
+    <style name="BaseDialog.Button.Backgrounds.Bottom">
+        <item name="leftBackground">?android:selectableItemBackground</item>
+        <item name="rightBackground">?android:selectableItemBackground</item>
+        <item name="middleBackground">?android:selectableItemBackground</item>
+        <item name="wholeBackground">?android:selectableItemBackground</item>
+    </style>
+
+    <style name="BaseDialog.Button.Backgrounds.SelecPhoto">
+        <item name="wholeBackground">@drawable/select_menu_item_bg</item>
+    </style>
+
+    <style name="BaseDialog.Button.Backgrounds.VerticalButton">
+        <item name="leftBackground">@drawable/top_line_white_bg</item>
+        <item name="rightBackground">@drawable/top_line_white_bg</item>
+        <item name="middleBackground">@drawable/top_line_white_bg</item>
+        <item name="wholeBackground">@drawable/top_line_white_bg</item>
+    </style>
+
+    <style name="TextAppearance">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.DialogTitle">
+        <item name="android:textSize">@dimen/C_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="TextAppearance.DialogTitle.SelectPhoto">
+        <item name="android:textSize">@dimen/E_title</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_color_light_normal</item>
+    </style>
+
+    <style name="TextAppearance.DialogTitle.SelectSex">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/color_light_gray</item>
+    </style>
+
+    <style name="TextAppearance.DialogMessage">
+        <item name="android:textSize">@dimen/D_title</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="BottomAnimation">
+        <item name="android:windowEnterAnimation">@anim/bottom_anim_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_anim_out</item>
+    </style>
+</resources>

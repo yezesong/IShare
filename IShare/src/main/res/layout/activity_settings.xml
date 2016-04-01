@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:care="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.magcomm.sharelibrary.views.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        care:tp_title="@string/topbar_title_settings" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/settings_default_margin"
+        android:background="@color/devider_color" />
+
+    <com.magcomm.sharelibrary.views.SettingsItem
+        android:id="@+id/setting_clear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/select_menu_item_bg"
+        care:tp_title="@string/txt_setting_clear" />
+
+    <com.magcomm.sharelibrary.views.SettingsItem
+        android:id="@+id/setting_news"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/select_menu_item_bg"
+        care:tp_title="@string/txt_setting_news" />
+
+    <com.magcomm.sharelibrary.views.SettingsItem
+        android:id="@+id/setting_secret"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/select_menu_item_bg"
+        care:tp_title="@string/txt_string_secret" />
+
+    <com.magcomm.sharelibrary.views.SettingsItem
+        android:id="@+id/setting_black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/select_menu_item_bg"
+        care:tp_title="@string/txt_string_black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/settings_default_margin"
+        android:background="@color/devider_color" />
+
+    <com.magcomm.sharelibrary.views.SettingsItem
+        android:id="@+id/setting_about_ishare"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/select_menu_item_bg"
+        care:tp_title="@string/txt_string_about_ishare" />
+
+    <com.magcomm.sharelibrary.views.SettingsItem
+        android:id="@+id/setting_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/select_menu_item_bg"
+        care:tp_title="@string/txt_string_feedback" />
+
+    <Button
+        android:id="@+id/setting_quit"
+        style="@style/BtnLoginStyle"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/btn_quit_background"
+        android:text="@string/txt_string_quit" />
+
+</LinearLayout>
